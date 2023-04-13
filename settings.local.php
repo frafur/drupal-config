@@ -159,3 +159,8 @@ $settings['skip_permissions_hardening'] = TRUE;
  */
 
 # $settings['config_exclude_modules'] = ['devel', 'stage_file_proxy'];
+
+// Disable Google Analytics from sending dev GA data.
+//$config['google_analytics.settings']['account'] = 'UA-XXXXXXXX-YY';
+// Disable Matomo modules from sending data.
+//$config['matomo.settings']['id'] = '';
